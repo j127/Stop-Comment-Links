@@ -1,4 +1,4 @@
-=== No Comment Links ===
+=== Stop Comment Links ===
 Contributors: j127
 Tags: comments, spam
 License: GPL2
