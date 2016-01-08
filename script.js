@@ -28,6 +28,7 @@
 		.attr('id', 'sclWarningMessage')
 		.text('Links are not allowed in comments.');
 
+	// Add the hidden warning message to the page
 	commentBox.before(warningMessageDiv);
 
 	function showWarning() {
@@ -35,7 +36,7 @@
 		warningMessageDiv.fadeIn();
 	}
 
-	function removeWarning() {
+	function hideWarning() {
 		commentBox.css('outline', '1px solid green');
 		warningMessageDiv.fadeOut();
 	}
@@ -54,7 +55,7 @@
 		}
 
 		// Show or remove the warning
-		containsLinks === true ? showWarning() : removeWarning();
+		containsLinks === true ? showWarning() : hideWarning();
 
 	});
 
