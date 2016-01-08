@@ -12,7 +12,8 @@
 	bannedStrings = [
 		'<a href=',
 		'http://',
-		'https://'
+		'https://',
+		'www.'
 	];
 
 	commentBox = $('textarea#comment');

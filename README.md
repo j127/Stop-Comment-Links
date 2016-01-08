@@ -1,6 +1,6 @@
 # Stop Comment Links
 
-This is alpha software. Use at your own risk.
+This is unifinshed alpha software. Use at your own risk.
 
 See the readme.txt file for more information.
 

@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Stop Comment Links
-Plugin URI:  http://github.com/j127
+Plugin URI:  https://github.com/j127/Stop-Comment-Links
 Description: Discourages posting links in WordPress comment textarea
 Version:     0.0.1
 Author:      j127
@@ -24,11 +24,11 @@ You should have received a copy of the GNU General Public License
 along with Stop Comment Links. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 */
 
-defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+defined( 'ABSPATH' ) or die( 'Forbidden' );
 
-function ncl_add_scripts() {
+function scl_add_scripts() {
 	wp_register_script('stop_comment_links', plugins_url( 'script.js', __FILE__ ), array( 'jquery' ), '0.0.1', true);
 	wp_enqueue_script('stop_comment_links');
 }
 
-add_action( 'wp_enqueue_scripts', 'ncl_add_scripts' );
+add_action( 'wp_enqueue_scripts', 'scl_add_scripts' );
