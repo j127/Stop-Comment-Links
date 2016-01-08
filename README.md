@@ -1,4 +1,4 @@
-# Stop Comment Links
+# Stop Comment Links - WordPress Plugin
 
 This is unifinshed alpha software. Use at your own risk.
 
