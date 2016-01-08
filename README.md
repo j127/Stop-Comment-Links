@@ -15,3 +15,8 @@ If the user tries to submit the comment in that state, it will block the submiss
 ![Screenshot 2](./screenshots/screenshot-2.png)
 
 The user can override this behavior with a little bit of work, in which case you can moderate the comment in the WP dashboard.
+
+## TODO
+
+* Fix code to conform to WP coding style.
+* Move settings into dashboard.
