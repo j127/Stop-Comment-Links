@@ -33,12 +33,12 @@
 
 	function showWarning() {
 		commentBox.css('outline', '6px solid #f00');
-		warningMessageDiv.fadeIn();
+		warningMessageDiv.show();
 	}
 
 	function hideWarning() {
 		commentBox.css('outline', '1px solid green');
-		warningMessageDiv.fadeOut();
+		warningMessageDiv.hide();
 	}
 
 	// Event listeners
